@@ -35,3 +35,29 @@ class TestUserAddressForm(TestCase):
         form = forms.UserAddressForm(self.user, post_data, instance=duplicate)
         self.assertFalse(form.is_valid())
         self.assertTrue(len(form.errors["__all__"]) > 0)
+    def test_form_is_valid_with_new_address(self):
+        data = {
+            "user": self.user,
+            "first_name": "John",
+            "last_name": "Doe",
+            "line1": "123 Main Street",
+            "line4": "London",
+            "postcode": "E1 6AN",
+            "country": self.country.iso_3166_1_a2,
+        }
+        form = forms.UserAddressForm(self.user, data)
+        self.assertTrue(form.is_valid())
+
+    def test_form_is_invalid_with_missing_required_fields(self):
+        data = {
+            "user": self.user,
+            "first_name": "",
+            "last_name": "",
+            "line1": "",
+            "line4": "London",
+            "postcode": "E1 6AN",
+            "country": self.country.iso_3166_1_a2,
+        }
+        form = forms.UserAddressForm(self.user, data)
+        self.assertFalse(form.is_valid())
+        self.assertTrue(len(form.errors) > 0)

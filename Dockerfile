@@ -22,4 +22,10 @@ RUN make build_sandbox
 RUN cp --remove-destination /app/src/oscar/static/oscar/img/image_not_found.jpg /app/sandbox/public/media/
 
 WORKDIR /app/sandbox/
+
+RUN wget "https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.0.2.4839-linux-x64.zip" 
+RUN unzip sonar-scanner-cli-7.0.2.4839-linux-x64.zip
+#RUN mv sonar-scanner-7.0.2.4839-linux-x64/ /opt/sonar-scanner
+#RUN export PATH=$PATH:/opt/sonar-scanner/bin'
+
 CMD uwsgi --ini uwsgi.ini

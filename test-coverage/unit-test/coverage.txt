@@ -1,0 +1,596 @@
+Name                                                                                                    Stmts   Miss  Cover   Missing
+-------------------------------------------------------------------------------------------------------------------------------------
+sandbox/__init__.py                                                                                         0      0   100%
+sandbox/apps/__init__.py                                                                                    0      0   100%
+sandbox/apps/offers.py                                                                                     17     17     0%   1-25
+sandbox/apps/sitemaps.py                                                                                   35     35     0%   2-70
+sandbox/apps/user/__init__.py                                                                               0      0   100%
+sandbox/apps/user/models.py                                                                                36     36     0%   6-68
+sandbox/manage.py                                                                                           6      6     0%   2-10
+sandbox/settings.py                                                                                        64     64     0%   1-434
+sandbox/settings_postgres.py                                                                                2      2     0%   1-3
+sandbox/settings_sphinx.py                                                                                  6      6     0%   1-9
+sandbox/urls.py                                                                                            17     17     0%   1-42
+sandbox/wsgi.py                                                                                             4      4     0%   2-9
+setup.py                                                                                                   30     30     0%   9-153
+src/oscar/__init__.py                                                                                      15     10    33%   6, 10-21
+src/oscar/apps/__init__.py                                                                                  0      0   100%
+src/oscar/apps/address/__init__.py                                                                          1      0   100%
+src/oscar/apps/address/abstract_models.py                                                                 181     62    66%   268, 278-279, 304-310, 314-324, 327, 334, 342, 349, 355, 360-375, 381-382, 389-393, 399-400, 410-413, 421, 468, 475, 487, 529, 586-591, 594-599, 612-617, 635
+src/oscar/apps/address/admin.py                                                                            10      0   100%
+src/oscar/apps/address/apps.py                                                                              6      0   100%
+src/oscar/apps/address/forms.py                                                                            18      2    89%   39-40
+src/oscar/apps/address/models.py                                                                           11      0   100%
+src/oscar/apps/analytics/__init__.py                                                                        1      0   100%
+src/oscar/apps/analytics/abstract_models.py                                                                56      3    95%   42, 95, 116
+src/oscar/apps/analytics/admin.py                                                                          12      0   100%
+src/oscar/apps/analytics/apps.py                                                                            8      0   100%
+src/oscar/apps/analytics/models.py                                                                         19      0   100%
+src/oscar/apps/analytics/receivers.py                                                                      56     31    45%   33-38, 48-49, 58-68, 86-91, 97-98, 104-108, 114-118
+src/oscar/apps/analytics/reports.py                                                                        45     15    67%   16-27, 45, 48, 55-81, 99
+src/oscar/apps/basket/__init__.py                                                                           1      0   100%
+src/oscar/apps/basket/abstract_models.py                                                                  480    270    44%   90-98, 101, 113, 116-124, 127, 139-147, 154-159, 167-199, 206-208, 218-221, 230, 245-307, 319, 325-326, 334-350, 363-372, 380-381, 389-390, 398-400, 412-415, 426-434, 441-453, 464, 473, 482, 487, 494, 501, 505, 513, 520, 524, 531, 538, 546, 553, 558, 563, 567-570, 574-577, 581-583, 587-589, 593-595, 599, 606, 612-613, 623-630, 639-644, 650-654, 729-730, 744, 747, 756-760, 770, 776-788, 796, 805-837, 853-855, 862, 865, 868, 871, 874, 885, 889, 894, 898, 902, 906, 910, 914, 922-925, 929, 936, 940, 944, 948, 952-953, 957-991, 995-1008, 1012-1013, 1020-1021, 1025-1038, 1046-1076
+src/oscar/apps/basket/admin.py                                                                             16      0   100%
+src/oscar/apps/basket/apps.py                                                                              19      2    89%   26-37
+src/oscar/apps/basket/forms.py                                                                            176    116    34%   19, 25, 31, 37, 43, 52, 61, 71, 80, 98-115, 119-123, 126-128, 131-135, 143-148, 151-154, 171-173, 176-193, 200, 203, 226-234, 245-263, 273-274, 283-286, 291-300, 304-318, 327, 330-358, 366-372, 377-380
+src/oscar/apps/basket/formsets.py                                                                          32     15    53%   14-15, 18, 25-33, 37, 43, 53-55, 58
+src/oscar/apps/basket/managers.py                                                                          15      5    67%   10, 13, 22, 25, 28
+src/oscar/apps/basket/models.py                                                                            17      0   100%
+src/oscar/apps/basket/reports.py                                                                           52     20    62%   15-51, 54, 77-78, 85-107, 110, 133-134
+src/oscar/apps/basket/signals.py                                                                            4      0   100%
+src/oscar/apps/basket/utils.py                                                                            127     87    31%   23-32, 35-40, 43-48, 51-56, 59-62, 69-76, 94-97, 100, 103-106, 123-131, 135, 151-153, 157, 168-205, 210-213, 216-221, 225-229, 233-237, 241, 244, 247
+src/oscar/apps/basket/views.py                                                                            314    233    26%   43-45, 52, 56, 61-62, 68, 79-84, 87-97, 104, 107-151, 154, 159-223, 226-232, 237-240, 243-266, 277-315, 332-333, 336-339, 342-357, 360-381, 384, 390-395, 404, 407-447, 453-472, 475-476, 485-501, 512, 520-525, 528, 531-535, 538-558, 561-567
+src/oscar/apps/catalogue/__init__.py                                                                        1      0   100%
+src/oscar/apps/catalogue/abstract_models.py                                                               714    333    53%   69, 72-74, 118, 122, 176, 188-189, 192-204, 216, 223, 233-235, 241-251, 255-263, 266, 269, 277-280, 288, 291-293, 304, 313, 323, 326, 350, 510-511, 514-519, 525, 556-558, 564-569, 575-589, 595-597, 600-603, 606-607, 613, 617, 621, 627-636, 644-645, 651-655, 659, 666-668, 672, 679-681, 687-690, 695-698, 703-706, 716-719, 730, 737-740, 745-755, 765, 769-771, 778-792, 800-801, 810-818, 821-823, 835-838, 842, 847, 973, 977, 981, 985, 988, 991-992, 995-1003, 1006-1014, 1018-1028, 1031-1034, 1041-1046, 1049-1060, 1063-1064, 1069-1070, 1075-1078, 1081-1084, 1087-1088, 1091-1092, 1095-1096, 1099-1100, 1103-1111, 1114-1121, 1127-1128, 1198, 1202, 1205-1208, 1211-1223, 1229, 1239, 1246, 1255-1259, 1263, 1267, 1271, 1279, 1283-1285, 1295-1296, 1300, 1321, 1331-1332, 1357, 1443, 1447, 1451, 1455, 1458-1462, 1465-1475, 1478-1487, 1497, 1512-1516, 1519-1542, 1597, 1603, 1610-1613
+src/oscar/apps/catalogue/admin.py                                                                          65      2    97%   62-63
+src/oscar/apps/catalogue/apps.py                                                                           34      6    82%   28-45, 62-69
+src/oscar/apps/catalogue/expressions.py                                                                    11      2    82%   28, 36
+src/oscar/apps/catalogue/managers.py                                                                       61     41    33%   20-27, 30, 33-36, 39-49, 52-70, 83-90, 97-102, 121, 127, 135, 143
+src/oscar/apps/catalogue/models.py                                                                         47      0   100%
+src/oscar/apps/catalogue/product_attributes.py                                                            163    119    27%   10-11, 14, 17-26, 31, 35, 39, 46, 85, 95-103, 108-111, 116, 120, 124, 128-130, 133-137, 141-142, 146-148, 151-159, 162, 168-174, 177-180, 188-189, 192-204, 210, 213, 216, 219, 222, 225-293, 296-312
+src/oscar/apps/catalogue/receivers.py                                                                      24      9    62%   23-29, 40-43
+src/oscar/apps/catalogue/reviews/__init__.py                                                                1      0   100%
+src/oscar/apps/catalogue/reviews/abstract_models.py                                                       124     47    62%   88-93, 96, 99-102, 107, 110, 113-114, 117-119, 125, 129, 133, 137, 141, 146, 151, 155-159, 167-170, 177-185, 216, 219-225, 228-229
+src/oscar/apps/catalogue/reviews/admin.py                                                                  11      0   100%
+src/oscar/apps/catalogue/reviews/apps.py                                                                   18      2    89%   24-34
+src/oscar/apps/catalogue/reviews/forms.py                                                                  37     11    70%   15-20, 33-35, 39, 43
+src/oscar/apps/catalogue/reviews/managers.py                                                                5      1    80%   8
+src/oscar/apps/catalogue/reviews/models.py                                                                  8      0   100%
+src/oscar/apps/catalogue/reviews/signals.py                                                                 2      0   100%
+src/oscar/apps/catalogue/reviews/utils.py                                                                   7      4    43%   7-12
+src/oscar/apps/catalogue/reviews/views.py                                                                  87     48    45%   29-41, 44-46, 49-52, 55-57, 60-61, 64, 79-83, 95-111, 126-133, 136-141
+src/oscar/apps/catalogue/signals.py                                                                         2      0   100%
+src/oscar/apps/catalogue/views.py                                                                          60     32    47%   35-46, 49, 53-56, 59-65, 68-71, 75-81, 84, 87, 108-111
+src/oscar/apps/checkout/__init__.py                                                                         1      0   100%
+src/oscar/apps/checkout/applicator.py                                                                      23     11    52%   4, 12-13, 18-19, 34, 37-46, 53
+src/oscar/apps/checkout/apps.py                                                                            29      7    76%   33-76, 79-83
+src/oscar/apps/checkout/calculators.py                                                                     14     10    29%   14, 17-28
+src/oscar/apps/checkout/exceptions.py                                                                      11      7    36%   3-9, 19
+src/oscar/apps/checkout/forms.py                                                                           55     27    51%   17-18, 21-29, 52-54, 76, 79-95, 98, 101
+src/oscar/apps/checkout/mixins.py                                                                         138     94    32%   66-68, 74-79, 88, 110-123, 143-177, 188-193, 199-209, 218-223, 230-231, 237-243, 254-258, 262, 276-286, 289, 298, 301-303, 306-334, 340-341, 351, 359-371
+src/oscar/apps/checkout/session.py                                                                        175    136    22%   52-68, 71-77, 83-85, 88-95, 101-103, 108-109, 120-135, 140-144, 150-162, 166-175, 185-197, 211, 218-219, 225-242, 249-253, 265-316, 336-358, 367-376, 388-420, 426
+src/oscar/apps/checkout/signals.py                                                                          5      0   100%
+src/oscar/apps/checkout/surcharges.py                                                                      29     14    52%   19, 27, 30-46, 56-57, 60
+src/oscar/apps/checkout/utils.py                                                                          104     15    86%   127-131, 146, 153, 159, 225-229, 250, 253
+src/oscar/apps/checkout/views.py                                                                          279    181    35%   52-57, 60-66, 69-100, 103, 137-150, 153-157, 163, 170-182, 186-190, 203, 206-208, 211-212, 224, 227-228, 260-261, 269-300, 303-305, 308-310, 320, 330-331, 334-337, 340, 370, 373, 376, 434-438, 441-444, 449-458, 473, 492, 502-504, 513-515, 527-532, 568-702, 705, 722-726, 730-744, 747-757
+src/oscar/apps/communication/__init__.py                                                                    1      0   100%
+src/oscar/apps/communication/abstract_models.py                                                           103     30    71%   40-46, 147-183, 186, 189, 192, 222, 225-226, 232
+src/oscar/apps/communication/admin.py                                                                       8      0   100%
+src/oscar/apps/communication/apps.py                                                                        6      0   100%
+src/oscar/apps/communication/managers.py                                                                    8      5    38%   13-17
+src/oscar/apps/communication/models.py                                                                     15      0   100%
+src/oscar/apps/communication/notifications/__init__.py                                                      0      0   100%
+src/oscar/apps/communication/notifications/views.py                                                        68     25    63%   26-28, 35, 44, 56-60, 64-65, 68, 78, 81, 84-92, 95-103
+src/oscar/apps/communication/utils.py                                                                      79     57    28%   16-21, 29-30, 35-41, 47-54, 60, 66-67, 75-76, 88-100, 108-140, 143, 158-167, 173-174, 180-185
+src/oscar/apps/customer/__init__.py                                                                         1      0   100%
+src/oscar/apps/customer/abstract_models.py                                                                124     55    56%   18-34, 37-42, 81-82, 88-89, 95, 101, 109-113, 116-121, 185, 189, 193, 197, 201, 204-206, 211-213, 218-220, 225-228, 231-243, 246, 251, 254
+src/oscar/apps/customer/alerts/__init__.py                                                                  0      0   100%
+src/oscar/apps/customer/alerts/receivers.py                                                                11      3    73%   11-13
+src/oscar/apps/customer/alerts/utils.py                                                                    67     49    27%   27, 33, 45-50, 58-116, 126-131, 134-136
+src/oscar/apps/customer/alerts/views.py                                                                    81     42    48%   26, 43-46, 49-50, 53-54, 57-60, 63-68, 71-76, 83-85, 88-92, 95, 111-120, 123-127, 130
+src/oscar/apps/customer/apps.py                                                                            53      2    96%   103-303
+src/oscar/apps/customer/forms.py                                                                          243    170    30%   28-35, 48-52, 55-61, 75-76, 79-81, 94-95, 98-101, 115-116, 119-128, 134-139, 142-146, 149-152, 155-162, 179-187, 194-200, 203-237, 240-250, 255-259, 268-276, 286-353, 366-373, 376-382, 385-426
+src/oscar/apps/customer/history.py                                                                         39     23    41%   25-30, 39-51, 58-63, 71-73
+src/oscar/apps/customer/mixins.py                                                                          41     22    46%   31, 34-37, 46-82, 85-86
+src/oscar/apps/customer/models.py                                                                           7      0   100%
+src/oscar/apps/customer/receivers.py                                                                        7      1    86%   17
+src/oscar/apps/customer/signals.py                                                                          3      0   100%
+src/oscar/apps/customer/utils.py                                                                           35     16    54%   24, 27-30, 33-36, 39-42, 45-48, 55-59, 68-72
+src/oscar/apps/customer/views.py                                                                          417    243    42%   69-71, 74, 77-83, 86-88, 91-92, 108-110, 113-118, 122-126, 131, 134-148, 151-177, 181, 184-193, 198, 203-216, 219-229, 233, 236-240, 248-254, 268-270, 273-293, 299-304, 318-320, 325-344, 347-354, 365-367, 370-375, 386-388, 391-397, 400-406, 426, 437, 443, 465-486, 493-496, 499-501, 509, 515, 518, 530-576, 590-593, 596-625, 634-639, 658, 670-672, 675-677, 680-681, 693-695, 698-700, 703, 706-707, 719, 722-723, 735-746
+src/oscar/apps/customer/wishlists/__init__.py                                                               0      0   100%
+src/oscar/apps/customer/wishlists/views.py                                                                228    145    36%   40, 58-59, 62-66, 69, 72-74, 77-81, 84-90, 102-128, 134-151, 170-176, 179-186, 189-191, 198-208, 217-232, 243, 246, 251-253, 256-264, 267-270, 273, 282, 285, 290-293, 307-309, 312-324, 330, 333, 336-339, 356-374, 382, 385-391, 394-397, 400-412, 419-420, 423-446
+src/oscar/apps/dashboard/__init__.py                                                                        1      0   100%
+src/oscar/apps/dashboard/apps.py                                                                           30      3    90%   38-59
+src/oscar/apps/dashboard/catalogue/__init__.py                                                              1      0   100%
+src/oscar/apps/dashboard/catalogue/apps.py                                                                 37      2    95%   100-230
+src/oscar/apps/dashboard/catalogue/forms.py                                                               216    108    50%   48, 55, 58, 63-66, 86-89, 97-100, 107-122, 137, 141, 147, 151, 155, 159, 167, 173, 181, 194, 198, 202, 206, 245-267, 275-279, 286-295, 302-308, 314, 321-323, 330-336, 362-368, 371, 385-388, 399-409, 414-420, 423-429
+src/oscar/apps/dashboard/catalogue/formsets.py                                                             72     38    47%   45-59, 72-80, 83-85, 92-100, 117, 120-125, 128-137, 148, 163
+src/oscar/apps/dashboard/catalogue/mixins.py                                                                7      4    43%   12-16
+src/oscar/apps/dashboard/catalogue/models.py                                                                0      0   100%
+src/oscar/apps/dashboard/catalogue/tables.py                                                               56      0   100%
+src/oscar/apps/dashboard/catalogue/views.py                                                               552    333    40%   92-95, 98-100, 103-108, 111, 117-120, 129-174, 183, 189-190, 193-199, 232-233, 241-242, 251-255, 261, 272-294, 297-307, 310-323, 328-331, 340-361, 379, 387-401, 412-414, 418-427, 430-433, 443-468, 486, 489-494, 497, 505-522, 530-531, 539-548, 558-561, 564-573, 582, 585-587, 598, 601-604, 609-613, 624-626, 629-630, 634-637, 646-648, 651-657, 665-667, 670-671, 678, 681, 697-710, 713-716, 719-724, 735-745, 752, 755, 758-759, 766, 769-770, 773-774, 783-785, 794-805, 808-809, 825-838, 842-847, 850-857, 868-875, 878-881, 890, 893, 896-898, 907-910, 913, 916-918, 928-930, 939-957, 960-968, 971-973, 990-994, 997-1000, 1003-1007, 1014, 1017, 1020-1021, 1028-1029, 1032, 1035-1036, 1044-1065, 1068-1069
+src/oscar/apps/dashboard/catalogue/widgets.py                                                               9      0   100%
+src/oscar/apps/dashboard/communications/__init__.py                                                         1      0   100%
+src/oscar/apps/dashboard/communications/apps.py                                                            15      2    87%   23-29
+src/oscar/apps/dashboard/communications/forms.py                                                           63     39    38%   28-33, 36-39, 42-44, 47-49, 52-54, 57-66, 69-74, 77-80
+src/oscar/apps/dashboard/communications/models.py                                                           0      0   100%
+src/oscar/apps/dashboard/communications/views.py                                                           62     37    40%   31-38, 41-46, 49-51, 54-67, 70-86
+src/oscar/apps/dashboard/models.py                                                                          0      0   100%
+src/oscar/apps/dashboard/nav.py                                                                            60     27    55%   28-34, 38, 42, 45, 48, 53-66, 69, 107-117
+src/oscar/apps/dashboard/offers/__init__.py                                                                 1      0   100%
+src/oscar/apps/dashboard/offers/apps.py                                                                    20      2    90%   30-69
+src/oscar/apps/dashboard/offers/forms.py                                                                  131     81    38%   15, 34-44, 56-57, 74-83, 91-109, 118-133, 140-168, 173-175, 184-198, 205-233, 238-240, 263
+src/oscar/apps/dashboard/offers/models.py                                                                   0      0   100%
+src/oscar/apps/dashboard/offers/reports.py                                                                 15      8    47%   12-23, 26
+src/oscar/apps/dashboard/offers/views.py                                                                  157     77    51%   51-115, 118-122, 133, 136, 148, 152, 164, 175-176, 179, 182, 191-200, 203-204, 217-218, 221-224, 227-232, 237-245, 250, 253-255, 258-261
+src/oscar/apps/dashboard/offers/wizard_views.py                                                           129     93    28%   31-39, 42-44, 47-52, 55-67, 70-75, 78-89, 92-99, 107-110, 113-114, 117-124, 127-132, 135, 138-146, 150-178, 183-185, 189-191
+src/oscar/apps/dashboard/orders/__init__.py                                                                 1      0   100%
+src/oscar/apps/dashboard/orders/apps.py                                                                    19      2    89%   36-58
+src/oscar/apps/dashboard/orders/forms.py                                                                   95     45    53%   32-56, 59-61, 64-66, 110-127, 130, 141-143, 168-172, 176
+src/oscar/apps/dashboard/orders/views.py                                                                  450    344    24%   48-59, 63-66, 79, 82-83, 86-88, 91-95, 98-110, 138-141, 144-155, 161-234, 246-351, 354-358, 361, 364, 367-369, 372, 375-387, 390-400, 403-405, 410-433, 464, 467, 474-486, 489-491, 494-528, 531-536, 539-553, 558, 561-569, 572-575, 581-588, 591-598, 601-630, 636-642, 648-680, 683-706, 712-724, 729-748, 762-766, 769-771, 778-793, 800-807, 822-823, 826-828, 831-839, 842-843
+src/oscar/apps/dashboard/pages/__init__.py                                                                  1      0   100%
+src/oscar/apps/dashboard/pages/apps.py                                                                     17      2    88%   28-34
+src/oscar/apps/dashboard/pages/forms.py                                                                    20      6    70%   48-53
+src/oscar/apps/dashboard/pages/views.py                                                                    80     41    49%   40-59, 66-69, 79-83, 87-91, 96-98, 108-122, 131-133, 141-142
+src/oscar/apps/dashboard/partners/__init__.py                                                               1      0   100%
+src/oscar/apps/dashboard/partners/apps.py                                                                  22      2    91%   41-72
+src/oscar/apps/dashboard/partners/forms.py                                                                 79     36    54%   24-28, 50-51, 54-64, 93-99, 102-105, 108-123
+src/oscar/apps/dashboard/partners/views.py                                                                176    107    39%   44-63, 66-70, 80-82, 85-88, 102-106, 109, 112-116, 119-125, 133-136, 150-151, 154-157, 160-162, 165-167, 176-177, 180-184, 187-190, 193-197, 203, 206-221, 229-237, 249-257, 260-280, 293-294, 299-303, 306-308
+src/oscar/apps/dashboard/ranges/__init__.py                                                                 1      0   100%
+src/oscar/apps/dashboard/ranges/apps.py                                                                    19      2    89%   27-41
+src/oscar/apps/dashboard/ranges/forms.py                                                                   77     52    32%   47-48, 52-91, 94-102, 105, 108, 111, 121-160
+src/oscar/apps/dashboard/ranges/models.py                                                                   0      0   100%
+src/oscar/apps/dashboard/ranges/views.py                                                                  190    125    34%   33, 42-50, 53-55, 64-67, 70-78, 81-84, 93-94, 112-113, 117-125, 128-130, 133-134, 137-157, 160-173, 178-186, 191-206, 212-227, 233-274, 277-299, 302-309, 312-320, 329-331, 337-342
+src/oscar/apps/dashboard/reports/__init__.py                                                                1      0   100%
+src/oscar/apps/dashboard/reports/apps.py                                                                   14      2    86%   22-25
+src/oscar/apps/dashboard/reports/forms.py                                                                  20      5    75%   35-44
+src/oscar/apps/dashboard/reports/models.py                                                                  0      0   100%
+src/oscar/apps/dashboard/reports/reports.py                                                                71     40    44%   26-33, 36, 43-51, 54, 60, 66, 73-92, 97-99, 102-104, 107, 111, 116, 119-125, 130
+src/oscar/apps/dashboard/reports/utils.py                                                                  15      4    73%   29-32
+src/oscar/apps/dashboard/reports/views.py                                                                  41     25    39%   21-31, 38-61
+src/oscar/apps/dashboard/reviews/__init__.py                                                                1      0   100%
+src/oscar/apps/dashboard/reviews/apps.py                                                                   16      2    88%   24-29
+src/oscar/apps/dashboard/reviews/forms.py                                                                  24      5    79%   35-39
+src/oscar/apps/dashboard/reviews/models.py                                                                  0      0   100%
+src/oscar/apps/dashboard/reviews/views.py                                                                  97     55    43%   37-39, 50-74, 77-106, 112-118, 121-126, 129-145, 148-152, 160-164, 174, 183
+src/oscar/apps/dashboard/shipping/__init__.py                                                               1      0   100%
+src/oscar/apps/dashboard/shipping/apps.py                                                                  20      2    90%   41-78
+src/oscar/apps/dashboard/shipping/forms.py                                                                 13      2    85%   14-15
+src/oscar/apps/dashboard/shipping/views.py                                                                 88     35    60%   28-33, 45-46, 49-51, 54-56, 59-63, 75-80, 93-94, 97, 100-102, 105-109, 121-122, 125, 128-132, 143-148
+src/oscar/apps/dashboard/tables.py                                                                         13      5    62%   11-15
+src/oscar/apps/dashboard/users/__init__.py                                                                  1      0   100%
+src/oscar/apps/dashboard/users/apps.py                                                                     19      2    89%   35-58
+src/oscar/apps/dashboard/users/forms.py                                                                    26      6    77%   19-26
+src/oscar/apps/dashboard/users/tables.py                                                                   16      0   100%
+src/oscar/apps/dashboard/users/views.py                                                                   150     78    48%   41-43, 46, 52-61, 64-67, 71-79, 85-102, 105-107, 110-112, 115, 118, 121-126, 135-138, 147-148, 151-153, 157-158, 161-162, 175-211, 214-217, 227-228, 237-238
+src/oscar/apps/dashboard/views.py                                                                         155    101    35%   39-44, 47-49, 56, 69-109, 112-184, 190, 197, 200-201, 207, 214, 217-225, 230-241, 252-268, 279-285, 292-312, 319, 328-329
+src/oscar/apps/dashboard/vouchers/__init__.py                                                               1      0   100%
+src/oscar/apps/dashboard/vouchers/apps.py                                                                  24      2    92%   43-76
+src/oscar/apps/dashboard/vouchers/forms.py                                                                 68     28    59%   42, 67, 96-110, 114-142, 149
+src/oscar/apps/dashboard/vouchers/views.py                                                                250    145    42%   36-99, 102-106, 116-118, 121-123, 127-129, 132-133, 142-146, 157-163, 166-168, 171-173, 177-179, 182-183, 193-196, 199, 202-209, 218-220, 223-225, 228-229, 239-241, 244-251, 254-255, 266-267, 270-297, 300-304, 314-321, 324-327, 336-347, 356-357
+src/oscar/apps/dashboard/widgets.py                                                                        53     31    42%   22-26, 29-33, 37, 41, 44-52, 57-91, 94, 97, 100
+src/oscar/apps/offer/__init__.py                                                                            1      0   100%
+src/oscar/apps/offer/abstract_models.py                                                                   589    361    39%   40-58, 63, 73-76, 84, 286-292, 295, 298, 301-306, 312, 316, 320, 323-324, 329-330, 338-349, 352, 355, 358, 364-366, 373, 376, 379, 386-402, 405-409, 412, 415-418, 426-428, 431-505, 509, 515-520, 524, 599, 617, 620, 623-627, 630-642, 645-656, 659-678, 681-703, 706-723, 726-727, 735-742, 745-754, 760-767, 774, 780, 791-807, 810, 859, 867-871, 874-883, 886-895, 898-907, 910, 918, 926, 929, 935-938, 944-956, 1036, 1039, 1043-1044, 1056-1071, 1078-1086, 1089-1091, 1094-1097, 1101-1105, 1115-1118, 1123-1177, 1184, 1191, 1269-1272, 1275-1280, 1283, 1290-1323, 1326-1329
+src/oscar/apps/offer/admin.py                                                                              19      0   100%
+src/oscar/apps/offer/applicator.py                                                                         50     35    30%   22-23, 26-43, 53-58, 70-75, 82-93, 102, 110
+src/oscar/apps/offer/apps.py                                                                               16      2    88%   23-27
+src/oscar/apps/offer/benefits.py                                                                          231    131    43%   38-39, 51, 55, 76-114, 126, 133, 153-204, 220-232, 244-254, 273, 282-327, 335, 339, 348-362, 372-373, 385, 394, 402, 411-413, 421, 430-431
+src/oscar/apps/offer/conditions.py                                                                        180    122    32%   26, 33, 48-54, 57-65, 68-69, 72-75, 92-105, 118, 125, 140-149, 152-160, 163-165, 172, 181-202, 205-213, 226, 233, 248-260, 263-273, 276-277, 280-283, 297-316
+src/oscar/apps/offer/managers.py                                                                           11      3    73%   13-14, 34
+src/oscar/apps/offer/models.py                                                                             34      0   100%
+src/oscar/apps/offer/queryset.py                                                                           29     19    34%   17-24, 27-35, 38-45, 48-52, 55-63, 69-86
+src/oscar/apps/offer/receivers.py                                                                          21     13    38%   13-31
+src/oscar/apps/offer/reports.py                                                                            27      7    74%   18-23, 43-44
+src/oscar/apps/offer/results.py                                                                            90     43    52%   16, 19, 22, 25-36, 43-47, 54-58, 65-69, 79-90, 97-101, 108, 126, 130, 134, 153, 156, 159, 188
+src/oscar/apps/offer/utils.py                                                                              18     11    39%   13, 26, 30-40
+src/oscar/apps/offer/views.py                                                                              44     18    59%   23, 33-39, 42-45, 52, 62-63, 70-71, 74-76
+src/oscar/apps/order/__init__.py                                                                            1      0   100%
+src/oscar/apps/order/abstract_models.py                                                                   607    244    60%   138, 147-181, 187, 194, 201-204, 211-214, 221, 228, 232, 236, 243-246, 250-253, 257, 261, 265, 269, 276-279, 283, 292-309, 313, 319-322, 326-335, 345, 348-349, 356-362, 366-368, 374, 378, 382, 385-386, 392-393, 436, 439-442, 466, 502, 645-649, 659, 665, 674-691, 706-719, 723, 727, 731, 735, 744-763, 775-776, 783-789, 795-797, 806, 813-826, 836-837, 844-850, 854, 861-879, 883, 886-889, 892-903, 908-927, 960, 1009, 1037, 1087, 1090, 1162, 1168, 1201-1208, 1211, 1237, 1293, 1297, 1301, 1311-1321, 1324, 1331-1335, 1339-1343, 1346-1348, 1402
+src/oscar/apps/order/admin.py                                                                              60      0   100%
+src/oscar/apps/order/apps.py                                                                                6      0   100%
+src/oscar/apps/order/exceptions.py                                                                         12      0   100%
+src/oscar/apps/order/mixins.py                                                                             12      5    58%   10, 13-15, 18
+src/oscar/apps/order/models.py                                                                             68      0   100%
+src/oscar/apps/order/processing.py                                                                        101     82    19%   17-18, 37-40, 55-58, 70-72, 86-97, 103-112, 128-131, 147-182, 200-207, 215-220, 228-233, 241-249, 254-261, 264, 267
+src/oscar/apps/order/reports.py                                                                            30     10    67%   15-32, 35, 54-55, 58
+src/oscar/apps/order/signals.py                                                                             4      0   100%
+src/oscar/apps/order/utils.py                                                                             151    115    24%   36, 63-130, 148-185, 194-240, 246-247, 250-255, 269, 275-277, 290-291, 300-316, 319-321, 327, 339, 347-365, 371-372, 377-379
+src/oscar/apps/partner/__init__.py                                                                          1      0   100%
+src/oscar/apps/partner/abstract_models.py                                                                 127     49    61%   43, 56-62, 75, 86, 154-160, 178-182, 187, 200-217, 225, 234-254, 259-277, 282, 291, 301-303, 332-334, 339
+src/oscar/apps/partner/apps.py                                                                              8      0   100%
+src/oscar/apps/partner/availability.py                                                                     48     20    58%   25, 34, 43, 70, 87, 90-95, 102-104, 108-110, 117-119
+src/oscar/apps/partner/exceptions.py                                                                        4      0   100%
+src/oscar/apps/partner/models.py                                                                           20      3    85%   30-33
+src/oscar/apps/partner/prices.py                                                                           43     15    65%   25-28, 43, 68-72, 76-78, 85, 99, 103
+src/oscar/apps/partner/receivers.py                                                                        18     11    39%   16-29
+src/oscar/apps/partner/strategy.py                                                                        116     68    41%   43, 60-63, 78, 88, 106, 125-127, 135-136, 146, 154-158, 164, 169, 178, 183, 201-204, 215-220, 224-228, 240-242, 249-254, 273-278, 283-293, 304, 313, 324-326, 331-338
+src/oscar/apps/payment/__init__.py                                                                          1      0   100%
+src/oscar/apps/payment/abstract_models.py                                                                 134     45    66%   49, 125-131, 134-137, 145-147, 150, 162-164, 174-178, 186-188, 201, 208, 236, 289, 297-306, 315-317, 322-323, 327, 331, 335, 339
+src/oscar/apps/payment/admin.py                                                                            14      0   100%
+src/oscar/apps/payment/apps.py                                                                              6      0   100%
+src/oscar/apps/payment/bankcards.py                                                                        34     23    32%   64, 74-84, 91-104
+src/oscar/apps/payment/exceptions.py                                                                       14      1    93%   41
+src/oscar/apps/payment/models.py                                                                           19      0   100%
+src/oscar/apps/search/__init__.py                                                                           1      0   100%
+src/oscar/apps/search/apps.py                                                                              14      2    86%   20-22
+src/oscar/apps/search/facets.py                                                                            72     57    21%   7-8, 17-26, 31-34, 37-46, 49-50, 53-80, 83-84, 87-121, 124-126
+src/oscar/apps/search/features.py                                                                          11      6    45%   7-8, 12-15
+src/oscar/apps/search/forms.py                                                                             67     29    57%   99-114, 121-143, 156, 161-162, 168-171
+src/oscar/apps/search/signals.py                                                                            2      0   100%
+src/oscar/apps/search/views/__init__.py                                                                     4      0   100%
+src/oscar/apps/search/views/base.py                                                                        25     15    40%   16, 19-48
+src/oscar/apps/search/views/catalogue.py                                                                   59     31    47%   28-33, 36-38, 53-67, 70, 73-78, 81, 84-86, 89-91
+src/oscar/apps/search/views/search.py                                                                      12      2    83%   17-24
+src/oscar/apps/shipping/__init__.py                                                                         1      0   100%
+src/oscar/apps/shipping/abstract_models.py                                                                 95     34    64%   41, 49, 84-98, 126-133, 153-167, 173, 179, 183, 217-222, 226, 236
+src/oscar/apps/shipping/admin.py                                                                           15      0   100%
+src/oscar/apps/shipping/apps.py                                                                             6      0   100%
+src/oscar/apps/shipping/methods.py                                                                         75     32    57%   36, 46, 60, 88-91, 94, 111-112, 121, 128, 135, 142, 149, 158-163, 170-171, 180-186, 197-202, 205-206
+src/oscar/apps/shipping/models.py                                                                          15      0   100%
+src/oscar/apps/shipping/repository.py                                                                      31     19    39%   42-52, 59-66, 76, 83-84, 94-105
+src/oscar/apps/shipping/scales.py                                                                          22     16    27%   12-13, 16-31, 34-37
+src/oscar/apps/voucher/__init__.py                                                                          1      0   100%
+src/oscar/apps/voucher/abstract_models.py                                                                 138     58    58%   47, 50-55, 60-63, 67-68, 72-73, 77-78, 82-83, 168, 171-176, 181-182, 188-189, 195-196, 205-224, 233-245, 251-256, 264-265, 278, 318
+src/oscar/apps/voucher/admin.py                                                                            13      0   100%
+src/oscar/apps/voucher/apps.py                                                                              8      0   100%
+src/oscar/apps/voucher/models.py                                                                           15      0   100%
+src/oscar/apps/voucher/receivers.py                                                                        10      4    60%   8-9, 16-17
+src/oscar/apps/voucher/reports.py                                                                          22      6    73%   15-31
+src/oscar/apps/voucher/utils.py                                                                            12      7    42%   12-13, 30-34
+src/oscar/apps/wishlists/__init__.py                                                                        1      0   100%
+src/oscar/apps/wishlists/abstract_models.py                                                                81     30    63%   63, 66-68, 75-80, 83-89, 93, 105, 111-117, 120, 124, 151, 154-157, 183
+src/oscar/apps/wishlists/admin.py                                                                           8      0   100%
+src/oscar/apps/wishlists/apps.py                                                                           14      2    86%   20-24
+src/oscar/apps/wishlists/forms.py                                                                          20      4    80%   13-14, 23-24
+src/oscar/apps/wishlists/formsets.py                                                                        8      0   100%
+src/oscar/apps/wishlists/models.py                                                                         15      0   100%
+src/oscar/apps/wishlists/views.py                                                                          34     18    47%   20-33, 36, 39-50
+src/oscar/checks.py                                                                                         8      4    50%   7-20
+src/oscar/config.py                                                                                        26      4    85%   32-90
+src/oscar/core/__init__.py                                                                                  0      0   100%
+src/oscar/core/ajax.py                                                                                     27     16    41%   13, 16, 19-20, 23, 26, 29, 32, 35-39, 42-44
+src/oscar/core/application.py                                                                              49     22    55%   51, 57, 60, 66, 85-99, 112-116, 131-135
+src/oscar/core/compat.py                                                                                   56     28    50%   14-15, 34-38, 88-100, 103-106, 109-111, 117-120, 123-125, 128-129
+src/oscar/core/decorators.py                                                                               19     10    47%   8, 15-20, 26-35
+src/oscar/core/exceptions.py                                                                                6      0   100%
+src/oscar/core/loading.py                                                                                  97     17    82%   102, 125, 158, 175-176, 193-194, 196, 214-215, 222, 237-240, 267, 285
+src/oscar/core/prices.py                                                                                   34     24    29%   21-32, 35, 38-39, 44-52, 62, 69-72, 80-83
+src/oscar/core/thumbnails.py                                                                               42     27    36%   8, 11, 16-17, 20-29, 32-38, 43-44, 47-53, 56-58, 62-63
+src/oscar/core/utils.py                                                                                    59     33    44%   41-54, 62-65, 80-95, 102, 117-122, 127, 138-146, 156, 165, 180, 192
+src/oscar/core/validators.py                                                                               71     49    31%   21-29, 32-47, 50-70, 76-81, 98-103, 107-110, 114-116
+src/oscar/defaults.py                                                                                      50      0   100%
+src/oscar/forms/__init__.py                                                                                 0      0   100%
+src/oscar/forms/fields.py                                                                                  12      5    58%   19-20, 25-27
+src/oscar/forms/mixins.py                                                                                  51     17    67%   46-47, 54, 58, 64, 71, 76-102
+src/oscar/forms/widgets.py                                                                                132     71    46%   30-38, 43-46, 55-56, 65-78, 86-100, 132, 135-139, 151-157, 169-175, 198, 201-209, 221-222, 227-232, 248, 253-261, 271-303
+src/oscar/models/__init__.py                                                                                0      0   100%
+src/oscar/models/fields/__init__.py                                                                        66     19    71%   23, 43-47, 53-57, 84, 94, 109, 118-120, 123-124, 130-133
+src/oscar/models/fields/autoslugfield.py                                                                   90     64    29%   65, 77, 89-91, 95-98, 101-103, 107-167, 170-172, 175, 178-186
+src/oscar/models/fields/slugfield.py                                                                        7      1    86%   10
+src/oscar/templatetags/__init__.py                                                                          0      0   100%
+src/oscar/templatetags/currency_filters.py                                                                 21     12    43%   17-35
+src/oscar/templatetags/display_tags.py                                                                     30     20    33%   13-18, 23-38, 43-44, 47-51
+src/oscar/templatetags/sorting_tags.py                                                                     29     19    34%   28-50
+src/oscar/templatetags/wishlist_tags.py                                                                     5      1    80%   8
+src/oscar/utils/__init__.py                                                                                 0      0   100%
+src/oscar/utils/deprecation.py                                                                              2      0   100%
+src/oscar/utils/models.py                                                                                   5      1    80%   9
+src/oscar/views/__init__.py                                                                                16     11    31%   6, 11, 15, 21-28
+src/oscar/views/decorators.py                                                                              36     27    25%   26-51, 64-74, 82-88
+src/oscar/views/generic.py                                                                                 80     53    34%   20-38, 55-57, 60, 63, 69-84, 87-89, 92, 99, 102, 108, 112, 115-122, 125-126, 135-148
+tests/__init__.py                                                                                          14      8    43%   11-12, 15, 18, 28-31
+tests/_site/__init__.py                                                                                     0      0   100%
+tests/_site/apps/__init__.py                                                                                0      0   100%
+tests/_site/apps/catalogue/__init__.py                                                                      1      0   100%
+tests/_site/apps/catalogue/admin.py                                                                         1      0   100%
+tests/_site/apps/catalogue/apps.py                                                                          9      4    56%   10-20
+tests/_site/apps/catalogue/migrations/0001_initial.py                                                       9      9     0%   2-17
+tests/_site/apps/catalogue/migrations/0002_auto_20150217_1221.py                                            5      5     0%   2-13
+tests/_site/apps/catalogue/migrations/0003_data_migration_slugs.py                                         18     18     0%   2-41
+tests/_site/apps/catalogue/migrations/0004_auto_20150217_1710.py                                            5      5     0%   2-13
+tests/_site/apps/catalogue/migrations/0005_auto_20150604_1450.py                                            6      6     0%   2-14
+tests/_site/apps/catalogue/migrations/0006_auto_20150807_1725.py                                            7      7     0%   2-15
+tests/_site/apps/catalogue/migrations/0007_auto_20151207_1440.py                                            5      5     0%   2-13
+tests/_site/apps/catalogue/migrations/0008_auto_20160304_1652.py                                            7      7     0%   2-15
+tests/_site/apps/catalogue/migrations/0009_slugfield_noop.py                                                6      6     0%   3-15
+tests/_site/apps/catalogue/migrations/0010_auto_20170420_0439.py                                            6      6     0%   3-15
+tests/_site/apps/catalogue/migrations/0011_auto_20170422_1355.py                                            5      5     0%   3-14
+tests/_site/apps/catalogue/migrations/0012_auto_20170609_1902.py                                            5      5     0%   3-14
+tests/_site/apps/catalogue/migrations/0013_auto_20170821_1548.py                                            6      6     0%   3-15
+tests/_site/apps/catalogue/migrations/0014_auto_20181115_1953.py                                            4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0015_product_is_public.py                                             4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0016_auto_20190327_0757.py                                            5      5     0%   3-14
+tests/_site/apps/catalogue/migrations/0017_auto_20190816_0938.py                                            5      5     0%   3-13
+tests/_site/apps/catalogue/migrations/0018_auto_20191220_0920.py                                            4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0019_option_required.py                                              11     11     0%   3-25
+tests/_site/apps/catalogue/migrations/0020_auto_20200801_0817.py                                            4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0021_auto_20201005_0844.py                                            4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0022_auto_20210210_0539.py                                            4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0023_auto_20210824_1414.py                                            5      5     0%   3-13
+tests/_site/apps/catalogue/migrations/0024_remove_duplicate_attributes.py                                  41     41     0%   2-102
+tests/_site/apps/catalogue/migrations/0025_attribute_code_uniquetogether_constraint.py                      4      4     0%   3-12
+tests/_site/apps/catalogue/migrations/0026_predefined_product_options.py                                    5      5     0%   3-13
+tests/_site/apps/catalogue/migrations/0027_attributeoption_code_attributeoptiongroup_code_and_more.py       5      5     0%   3-12
+tests/_site/apps/catalogue/migrations/__init__.py                                                           0      0   100%
+tests/_site/apps/catalogue/models.py                                                                        1      0   100%
+tests/_site/apps/catalogue/views.py                                                                         4      0   100%
+tests/_site/apps/checkout/__init__.py                                                                       1      0   100%
+tests/_site/apps/checkout/applicator.py                                                                    12      6    50%   11, 17-23
+tests/_site/apps/checkout/apps.py                                                                           3      0   100%
+tests/_site/apps/customer/__init__.py                                                                       1      0   100%
+tests/_site/apps/customer/apps.py                                                                           3      0   100%
+tests/_site/apps/customer/migrations/0001_initial.py                                                        7      7     0%   2-16
+tests/_site/apps/customer/migrations/0002_auto_20150807_1725.py                                             7      7     0%   2-15
+tests/_site/apps/customer/migrations/0003_update_email_length.py                                            5      5     0%   3-14
+tests/_site/apps/customer/migrations/0004_email_save.py                                                     7      7     0%   3-16
+tests/_site/apps/customer/migrations/0005_auto_20181115_1953.py                                             4      4     0%   3-12
+tests/_site/apps/customer/migrations/0006_auto_20190430_1736.py                                             5      5     0%   3-36
+tests/_site/apps/customer/migrations/0007_auto_20200801_0817.py                                             4      4     0%   3-12
+tests/_site/apps/customer/migrations/__init__.py                                                            0      0   100%
+tests/_site/apps/customer/models.py                                                                         1      0   100%
+tests/_site/apps/customer/views.py                                                                          3      0   100%
+tests/_site/apps/dashboard/__init__.py                                                                      1      0   100%
+tests/_site/apps/dashboard/apps.py                                                                          3      0   100%
+tests/_site/apps/dashboard/models.py                                                                        1      0   100%
+tests/_site/apps/myapp/__init__.py                                                                          1      1     0%   1
+tests/_site/apps/myapp/apps.py                                                                              6      6     0%   1-9
+tests/_site/apps/myapp/models.py                                                                            2      2     0%   1-2
+tests/_site/apps/myapp/views.py                                                                             3      3     0%   1-5
+tests/_site/apps/offer/__init__.py                                                                          0      0   100%
+tests/_site/apps/offer/round.py                                                                             2      2     0%   2-3
+tests/_site/apps/partner/__init__.py                                                                        1      0   100%
+tests/_site/apps/partner/apps.py                                                                            3      0   100%
+tests/_site/apps/partner/migrations/0001_initial.py                                                         8      8     0%   2-18
+tests/_site/apps/partner/migrations/0002_auto_20141007_2032.py                                              6      6     0%   2-14
+tests/_site/apps/partner/migrations/0003_auto_20150604_1450.py                                              6      6     0%   2-14
+tests/_site/apps/partner/migrations/0004_auto_20160107_1755.py                                              5      5     0%   2-13
+tests/_site/apps/partner/migrations/0005_stockrecord_offer_name.py                                          5      5     0%   3-14
+tests/_site/apps/partner/migrations/0006_auto_20190816_0910.py                                              4      4     0%   3-12
+tests/_site/apps/partner/migrations/0007_auto_20200724_0909.py                                              4      4     0%   3-12
+tests/_site/apps/partner/migrations/__init__.py                                                             0      0   100%
+tests/_site/apps/partner/models.py                                                                          5      0   100%
+tests/_site/apps/shipping/__init__.py                                                                       1      1     0%   1
+tests/_site/apps/shipping/apps.py                                                                           3      3     0%   1-5
+tests/_site/apps/shipping/methods.py                                                                        2      2     0%   1-2
+tests/_site/apps/shipping/models.py                                                                         0      0   100%
+tests/_site/import_error_app/__init__.py                                                                    0      0   100%
+tests/_site/import_error_app/catalogue/__init__.py                                                          1      1     0%   1
+tests/_site/import_error_app/catalogue/apps.py                                                              3      3     0%   1-5
+tests/_site/import_error_app/catalogue/import_error_module.py                                               3      3     0%   3-7
+tests/_site/import_error_app/catalogue/models.py                                                            0      0   100%
+tests/_site/loader.py                                                                                       4      4     0%   1-8
+tests/_site/model_tests_app/__init__.py                                                                     0      0   100%
+tests/_site/model_tests_app/models.py                                                                      64      8    88%   28-30, 34, 51, 55, 66, 70
+tests/_site/myauth/__init__.py                                                                              0      0   100%
+tests/_site/myauth/migrations/0001_initial.py                                                               9      9     0%   3-19
+tests/_site/myauth/migrations/__init__.py                                                                   0      0   100%
+tests/_site/myauth/models.py                                                                               26     11    58%   18-29, 32-36
+tests/_site/shipping/__init__.py                                                                            1      1     0%   1
+tests/_site/shipping/apps.py                                                                                3      3     0%   1-5
+tests/_site/shipping/methods.py                                                                             2      2     0%   1-2
+tests/_site/shipping/models.py                                                                              0      0   100%
+tests/_site/specialurls.py                                                                                 13     13     0%   1-25
+tests/_site/thirdparty_package/__init__.py                                                                  0      0   100%
+tests/_site/thirdparty_package/apps/__init__.py                                                             0      0   100%
+tests/_site/thirdparty_package/apps/myapp/__init__.py                                                       1      1     0%   1
+tests/_site/thirdparty_package/apps/myapp/apps.py                                                           3      3     0%   1-5
+tests/_site/thirdparty_package/apps/myapp/models.py                                                         4      4     0%   1-6
+tests/_site/urls.py                                                                                        13     13     0%   1-25
+tests/conftest.py                                                                                          27      9    67%   18-20, 25-27, 30-31, 39-41
+tests/fixtures.py                                                                                          22     22     0%   1-32
+tests/functional/__init__.py                                                                                0      0   100%
+tests/functional/basket/__init__.py                                                                         0      0   100%
+tests/functional/basket/test_manipulation.py                                                               48     48     0%   1-74
+tests/functional/catalogue/__init__.py                                                                      0      0   100%
+tests/functional/catalogue/test_catalogue.py                                                              128    128     0%   1-180
+tests/functional/catalogue/test_review.py                                                                  44     44     0%   1-61
+tests/functional/checkout/__init__.py                                                                     365    365     0%   2-594
+tests/functional/checkout/test_customer_checkout.py                                                       131    131     0%   1-223
+tests/functional/checkout/test_guest_checkout.py                                                           98     98     0%   1-174
+tests/functional/checkout/test_session.py                                                                  13     13     0%   1-18
+tests/functional/customer/__init__.py                                                                       0      0   100%
+tests/functional/customer/test_alert.py                                                                   156    156     0%   1-272
+tests/functional/customer/test_auth.py                                                                    115    115     0%   1-155
+tests/functional/customer/test_emails.py                                                                  117    117     0%   1-214
+tests/functional/customer/test_history.py                                                                  46     46     0%   1-63
+tests/functional/customer/test_notification.py                                                             27     27     0%   1-36
+tests/functional/customer/test_order_status.py                                                             19     19     0%   1-32
+tests/functional/customer/test_profile.py                                                                 132    132     0%   1-195
+tests/functional/customer/test_wishlists.py                                                               162    162     0%   2-266
+tests/functional/dashboard/__init__.py                                                                      0      0   100%
+tests/functional/dashboard/test_catalogue.py                                                              207    207     0%   1-338
+tests/functional/dashboard/test_catalogue_option.py                                                        82     82     0%   1-110
+tests/functional/dashboard/test_catalogue_option_group.py                                                 110    110     0%   1-166
+tests/functional/dashboard/test_category.py                                                                34     34     0%   1-46
+tests/functional/dashboard/test_communication.py                                                           41     41     0%   1-57
+tests/functional/dashboard/test_dashboard.py                                                              129    129     0%   1-192
+tests/functional/dashboard/test_offer.py                                                                  198    198     0%   1-318
+tests/functional/dashboard/test_order.py                                                                  178    178     0%   1-338
+tests/functional/dashboard/test_page.py                                                                    86     86     0%   1-160
+tests/functional/dashboard/test_partner.py                                                                 19     19     0%   1-25
+tests/functional/dashboard/test_product.py                                                                235    235     0%   1-333
+tests/functional/dashboard/test_range.py                                                                  299    299     0%   1-402
+tests/functional/dashboard/test_reports.py                                                                 31     31     0%   1-41
+tests/functional/dashboard/test_review.py                                                                  93     93     0%   1-139
+tests/functional/dashboard/test_shipping.py                                                                35     35     0%   1-54
+tests/functional/dashboard/test_user.py                                                                   110    110     0%   1-180
+tests/functional/dashboard/test_voucher.py                                                                 12     12     0%   1-49
+tests/functional/dashboard/test_widgets.py                                                                 35     35     0%   1-42
+tests/functional/dashboard/testcases.py                                                                   308    308     0%   2-440
+tests/functional/order/__init__.py                                                                          0      0   100%
+tests/functional/order/test_emails.py                                                                      52     52     0%   1-93
+tests/functional/test_basket.py                                                                           325    325     0%   1-628
+tests/functional/test_offer.py                                                                             21     21     0%   1-37
+tests/functional/test_stock_alert.py                                                                       56     56     0%   1-82
+tests/functional/wishlists/__init__.py                                                                      0      0   100%
+tests/functional/wishlists/test_wishlists.py                                                               85     85     0%   1-138
+tests/integration/__init__.py                                                                               0      0   100%
+tests/integration/address/__init__.py                                                                       0      0   100%
+tests/integration/address/test_forms.py                                                                    27     27     0%   1-63
+tests/integration/address/test_models.py                                                                  111    111     0%   2-272
+tests/integration/basket/__init__.py                                                                        0      0   100%
+tests/integration/basket/test_forms.py                                                                    200    200     0%   1-380
+tests/integration/basket/test_middleware.py                                                                28     28     0%   1-40
+tests/integration/basket/test_models.py                                                                   231    231     0%   2-324
+tests/integration/basket/test_report.py                                                                    38     38     0%   1-68
+tests/integration/basket/test_total.py                                                                     38     38     0%   1-69
+tests/integration/basket/test_utils.py                                                                    194    194     0%   2-310
+tests/integration/basket/test_views.py                                                                    163    163     0%   2-330
+tests/integration/catalogue/__init__.py                                                                     0      0   100%
+tests/integration/catalogue/reviews/__init__.py                                                             0      0   100%
+tests/integration/catalogue/reviews/test_forms.py                                                          37     37     0%   1-63
+tests/integration/catalogue/reviews/test_models.py                                                        113    113     0%   1-162
+tests/integration/catalogue/test_attributes.py                                                            173    173     0%   1-286
+tests/integration/catalogue/test_category.py                                                              172    172     0%   2-308
+tests/integration/catalogue/test_models.py                                                                 18     18     0%   1-29
+tests/integration/catalogue/test_options.py                                                                40     40     0%   1-70
+tests/integration/catalogue/test_product.py                                                               120    120     0%   2-251
+tests/integration/catalogue/test_product_class.py                                                           8      8     0%   1-14
+tests/integration/catalogue/test_product_image.py                                                          68     68     0%   1-99
+tests/integration/checkout/__init__.py                                                                      0      0   100%
+tests/integration/checkout/test_calculator.py                                                              35     35     0%   1-52
+tests/integration/checkout/test_forms.py                                                                   93     93     0%   2-156
+tests/integration/checkout/test_mixins.py                                                                 140    140     0%   2-236
+tests/integration/checkout/test_session.py                                                                 35     35     0%   1-49
+tests/integration/checkout/test_surcharges.py                                                              44     44     0%   1-63
+tests/integration/checkout/test_views.py                                                                   29     29     0%   1-43
+tests/integration/communication/__init__.py                                                                 0      0   100%
+tests/integration/communication/test_communicationeventtype.py                                             40     40     0%   1-65
+tests/integration/communication/test_dispatcher.py                                                         38     38     0%   1-76
+tests/integration/communication/test_notification.py                                                       38     38     0%   1-55
+tests/integration/core/__init__.py                                                                          0      0   100%
+tests/integration/core/test_autoslugfield.py                                                              130    130     0%   27-228
+tests/integration/core/test_compat.py                                                                      66     66     0%   2-94
+tests/integration/core/test_customisation.py                                                               95     95     0%   1-148
+tests/integration/core/test_decorator.py                                                                   63     63     0%   1-84
+tests/integration/core/test_loading.py                                                                    127    127     0%   1-221
+tests/integration/core/test_mixins.py                                                                      75     75     0%   1-155
+tests/integration/core/test_nullcharfield.py                                                               17     17     0%   1-27
+tests/integration/core/test_prices.py                                                                      29     29     0%   1-47
+tests/integration/core/test_slugfield.py                                                                   10     10     0%   3-15
+tests/integration/core/test_utils.py                                                                       27     27     0%   2-39
+tests/integration/core/test_validator.py                                                                   75     75     0%   1-120
+tests/integration/core/test_views.py                                                                       17     17     0%   1-24
+tests/integration/customer/__init__.py                                                                      0      0   100%
+tests/integration/customer/test_alert.py                                                                   12     12     0%   1-17
+tests/integration/customer/test_auth_backend.py                                                            17     17     0%   1-23
+tests/integration/customer/test_custom_user_model.py                                                       24     24     0%   1-31
+tests/integration/customer/test_history.py                                                                 11     11     0%   1-16
+tests/integration/customer/test_utils.py                                                                   11     11     0%   1-16
+tests/integration/dashboard/__init__.py                                                                     0      0   100%
+tests/integration/dashboard/test_catalogue_form.py                                                         30     30     0%   1-52
+tests/integration/dashboard/test_catalogue_views.py                                                        29     29     0%   2-79
+tests/integration/dashboard/test_nav.py                                                                    30     30     0%   1-41
+tests/integration/dashboard/test_offer_forms.py                                                            80     80     0%   1-239
+tests/integration/dashboard/test_offer_views.py                                                           240    240     0%   2-983
+tests/integration/dashboard/test_order_form.py                                                             12     12     0%   1-16
+tests/integration/dashboard/test_reports_form.py                                                           21     21     0%   1-55
+tests/integration/dashboard/test_reviews.py                                                               110    110     0%   2-184
+tests/integration/dashboard/test_voucher_form.py                                                           42     42     0%   1-97
+tests/integration/dashboard/test_voucher_views.py                                                          84     84     0%   1-128
+tests/integration/forms/__init__.py                                                                         0      0   100%
+tests/integration/forms/test_field.py                                                                       6      6     0%   1-11
+tests/integration/forms/test_widget.py                                                                    119    119     0%   1-212
+tests/integration/management_commands/__init__.py                                                           0      0   100%
+tests/integration/management_commands/test_oscar_fork_statics.py                                           63     63     0%   1-115
+tests/integration/offer/__init__.py                                                                         0      0   100%
+tests/integration/offer/test_absolute_benefit.py                                                          274    274     0%   1-449
+tests/integration/offer/test_applicator.py                                                                 52     52     0%   1-116
+tests/integration/offer/test_availability.py                                                               92     92     0%   1-139
+tests/integration/offer/test_benefit.py                                                                    34     34     0%   2-68
+tests/integration/offer/test_combination.py                                                                41     41     0%   1-67
+tests/integration/offer/test_condition.py                                                                 252    252     0%   2-379
+tests/integration/offer/test_conditionaloffer_delete.py                                                    36     36     0%   1-56
+tests/integration/offer/test_custom.py                                                                     19     19     0%   1-43
+tests/integration/offer/test_custom_range.py                                                               35     35     0%   1-50
+tests/integration/offer/test_fixed_price_benefit.py                                                        44     44     0%   1-63
+tests/integration/offer/test_fixed_unit_benefit.py                                                        232    232     0%   1-368
+tests/integration/offer/test_forms.py                                                                      26     26     0%   1-49
+tests/integration/offer/test_manager.py                                                                    47     47     0%   1-63
+tests/integration/offer/test_multibuy_benefit.py                                                           86     86     0%   1-140
+tests/integration/offer/test_offer.py                                                                      15     15     0%   1-20
+tests/integration/offer/test_percentage_benefit.py                                                        131    131     0%   1-211
+tests/integration/offer/test_post_order_action.py                                                          42     42     0%   1-63
+tests/integration/offer/test_priority_offers.py                                                            27     27     0%   1-53
+tests/integration/offer/test_range.py                                                                     227    227     0%   1-368
+tests/integration/offer/test_reports.py                                                                    13     13     0%   1-21
+tests/integration/offer/test_results.py                                                                    38     38     0%   1-51
+tests/integration/offer/test_shipping_benefit.py                                                           63     63     0%   1-118
+tests/integration/offer/test_shipping_percentage_benefit.py                                                71     71     0%   1-122
+tests/integration/offer/test_status.py                                                                     20     20     0%   1-30
+tests/integration/offer/test_tax.py                                                                        43     43     0%   1-79
+tests/integration/offer/test_upsell_messages.py                                                            70     70     0%   1-176
+tests/integration/offer/test_weight_based_shipping_benefit.py                                              31     31     0%   1-53
+tests/integration/order/__init__.py                                                                         0      0   100%
+tests/integration/order/test_creator.py                                                                   275    275     0%   1-529
+tests/integration/order/test_event_handler.py                                                             178    178     0%   1-357
+tests/integration/order/test_models.py                                                                    306    306     0%   3-501
+tests/integration/order/test_order_dispatcher.py                                                           38     38     0%   1-59
+tests/integration/order/test_processing.py                                                                 30     30     0%   1-53
+tests/integration/order/test_reports.py                                                                    13     13     0%   1-21
+tests/integration/partner/__init__.py                                                                       0      0   100%
+tests/integration/partner/test_availability.py                                                             70     70     0%   1-102
+tests/integration/partner/test_availability_mixin.py                                                       23     23     0%   1-30
+tests/integration/partner/test_dashboard_views.py                                                          16     16     0%   1-24
+tests/integration/partner/test_import.py                                                                   85     85     0%   1-125
+tests/integration/partner/test_models.py                                                                   82     82     0%   1-151
+tests/integration/partner/test_price.py                                                                    25     25     0%   1-38
+tests/integration/partner/test_selector_mixin.py                                                           18     18     0%   1-30
+tests/integration/partner/test_strategy.py                                                                 95     95     0%   1-130
+tests/integration/partner/test_tax_mixin.py                                                                36     36     0%   1-50
+tests/integration/payment/__init__.py                                                                       0      0   100%
+tests/integration/payment/test_bankcard.py                                                                 17     17     0%   1-41
+tests/integration/payment/test_forms.py                                                                   113    113     0%   1-172
+tests/integration/payment/test_models.py                                                                   65     65     0%   1-93
+tests/integration/search/__init__.py                                                                        0      0   100%
+tests/integration/search/test_munger.py                                                                    26     26     0%   1-97
+tests/integration/shipping/__init__.py                                                                      0      0   100%
+tests/integration/shipping/test_discount.py                                                                46     46     0%   1-59
+tests/integration/shipping/test_method.py                                                                  55     55     0%   1-79
+tests/integration/shipping/test_model_method.py                                                           158    158     0%   1-246
+tests/integration/shipping/test_models.py                                                                  20     20     0%   1-27
+tests/integration/shipping/test_repository.py                                                              28     28     0%   1-41
+tests/integration/shipping/test_scales.py                                                                  47     47     0%   1-71
+tests/integration/templatetags/__init__.py                                                                  0      0   100%
+tests/integration/templatetags/test_currency_filters.py                                                    32     32     0%   2-90
+tests/integration/templatetags/test_datetime.py                                                            12     12     0%   2-30
+tests/integration/templatetags/test_oscar_thumbnail.py                                                     61     61     0%   1-110
+tests/integration/templatetags/test_url_tags.py                                                            12     12     0%   1-42
+tests/integration/test_auth.py                                                                             39     39     0%   1-67
+tests/integration/test_hidden_features.py                                                                  27     27     0%   1-36
+tests/integration/test_logging.py                                                                          10     10     0%   1-42
+tests/integration/test_settings.py                                                                          6      6     0%   1-8
+tests/integration/test_wishlist.py                                                                         35     35     0%   1-54
+tests/integration/voucher/__init__.py                                                                       0      0   100%
+tests/integration/voucher/test_forms.py                                                                    61     61     0%   1-131
+tests/integration/voucher/test_models.py                                                                  119    119     0%   1-186
+tests/integration/voucher/test_utils.py                                                                    14     14     0%   1-19
+tests/settings.py                                                                                          45      0   100%
+tests/unit/__init__.py                                                                                      0      0   100%
+tests/unit/basket/__init__.py                                                                               0      0   100%
+tests/unit/basket/test_offers.py                                                                           76     55    28%   21, 25, 29-37, 44-71, 79-117, 121-161
+tests/unit/catalogue/__init__.py                                                                            0      0   100%
+tests/unit/catalogue/test_managers.py                                                                       8      3    62%   9-11
+tests/unit/catalogue/test_models.py                                                                        31     23    26%   10-12, 15-33, 36-60
+tests/unit/catalogue/test_product_attributes.py                                                           272    223    18%   23-71, 79-102, 114-138, 150-184, 191-209, 218-224, 227-229, 233-234, 238-244, 248-258, 262-269, 273-276, 279-283, 286-292, 295-334, 338-347, 351-359, 367-370, 373-395, 399-416, 424-429, 433-435, 439-448, 453-458, 461-463, 466-471, 474-480, 483-489, 492-498, 501-512, 515-528, 531-538
+tests/unit/catalogue/test_views_reviews.py                                                                 57     39    32%   10, 13-33, 36-56, 59-74, 77-92, 97, 100-108, 111-119, 124, 127-147, 150-170
+tests/unit/checkout/__init__.py                                                                             0      0   100%
+tests/unit/checkout/test_checkout_session_data.py                                                          79      1    99%   13
+tests/unit/core/__init__.py                                                                                 0      0   100%
+tests/unit/core/test_application.py                                                                        32     18    44%   17, 20-21, 24-25, 29-31, 34-47
+tests/unit/core/test_thumbnails.py                                                                         19      9    53%   9-14, 17-19, 25, 32
+tests/unit/customer/__init__.py                                                                             0      0   100%
+tests/unit/customer/test_forms.py                                                                          35     18    49%   21-30, 37-43, 49-60
+tests/unit/customer/test_views.py                                                                          15      8    47%   11, 14-22
+tests/unit/dashboard/__init__.py                                                                            0      0   100%
+tests/unit/dashboard/test_nav.py                                                                           31      0   100%
+tests/unit/dashboard/test_stockrecord.py                                                                   19     12    37%   11-22, 29-40
+tests/unit/forms/__init__.py                                                                                0      0   100%
+tests/unit/forms/test_widgets.py                                                                            5      0   100%
+tests/unit/offer/__init__.py                                                                                0      0   100%
+tests/unit/offer/test_reports.py                                                                           19     14    26%   13-34
+tests/unit/templatetags/test_display_tags.py                                                               11      6    45%   8-11, 14-15
+tests/unit/templatetags/test_sorting_tags.py                                                               10      6    40%   8-19
+tests/unit/templatetags/test_wishlist_tags.py                                                              18     11    39%   12-23
+-------------------------------------------------------------------------------------------------------------------------------------
+TOTAL                                                                                                   29072  21256    27%
